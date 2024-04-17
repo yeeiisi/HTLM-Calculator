@@ -106,3 +106,33 @@ body {
 #igual:hover {
     background-color: rgb(149, 61, 231);
 }
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .calculadora {
+        width: 100%;
+        max-width: 350px; /* Cambia este valor según sea necesario */
+    }
+
+    .Historial {
+        width: 100%;
+        max-width: 350px; /* Cambia este valor según sea necesario */
+    }
+
+    .col-historial {
+        margin-left: 0;
+    }
+
+    .pantalla {
+        font-size: 1.5rem;
+    }
+
+    .limpiar-btn {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        padding: 1rem;
+    }
+}
+
